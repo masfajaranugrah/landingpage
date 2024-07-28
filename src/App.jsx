@@ -1,4 +1,4 @@
-import Navbar from "./components/elements/Navbar"
+import Menu from "./components/elements/Navbar"
 import HeroParallaxDemo from "./components/elements/Hero"
 import VortexDemoSecond from "./components/elements/vortex"
 import Product from "./components/elements/Product"
@@ -9,7 +9,7 @@ import Footer from "./components/elements/Footer"
  
   return (
     <div className="bg-[#000]">
-    <Navbar/>
+    <Menu/>
      <VortexDemoSecond/>
      <Description/>
    

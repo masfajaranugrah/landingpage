@@ -9,6 +9,7 @@ function addVariablesForColors({ addBase, theme } ) {
     ":root": newVars,
   });
 }
+const {nextui} = require("@nextui-org/react");
 
 const {
   default: flattenColorPalette,
@@ -20,8 +21,9 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-     "./node_modules/flowbite/**/*.js"
-     
+     "./node_modules/flowbite/**/*.js",
+     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+
   ],
   darkMode: "class",
   theme: {
@@ -51,8 +53,9 @@ export default {
     },
   },
   plugins: [
+    nextui(),
     require('flowbite/plugin'),
-    // addVariablesForColors,
+    addVariablesForColors,
     
   ]
 }
