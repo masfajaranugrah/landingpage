@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Poppins", sans-seri;
+}
+.text-gederation{
+    background: #FE9A76;
+background: linear-gradient(to right, #FE9A76 51%, #FEDE80 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.text-gred{
+    background: #77FED6;
+background: linear-gradient(to right, #77FED6 12%, #11FEB6 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.text-band {
+    background: #6399FD;
+background: linear-gradient(to right, #6399FD 22%, #B372F8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.text-kerjakan {
+    background: #6399FD;
+background: linear-gradient(to right, #6399FD 0%, #B372F8 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.text-pernah {
+    background: #6399FD;
+background: linear-gradient(to right, #6399FD 63%, #B372F8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.gradient-bluish {
+    background: var(--gradients-bluish, linear-gradient(90deg, #4c73ff 2.34%, #73e0f8 100.78%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
