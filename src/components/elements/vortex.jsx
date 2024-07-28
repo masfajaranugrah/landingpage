@@ -8,7 +8,7 @@ export default function VortexDemoSecond() {
       const words = ["Responsive", "Cepat",  "modern", "harga murah"];
 
   return (
-    <div className="mx-auto mt-20  rounded-md  h-screen overflow-hidden">
+    <div className="mx-auto  rounded-md  h-screen overflow-hidden">
       <Vortex
         backgroundColor="whit"
         rangeY={800}

@@ -45,3 +45,10 @@ background: linear-gradient(to right, #6399FD 63%, #B372F8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.line {
+    width: 2px;
+    height: 60px; /* Adjust the height as needed */
+    background: rgb(99,153,253);
+    background: linear-gradient(0deg, rgba(99,153,253,1) 0%, rgba(174,116,248,1) 39%);
+    text-align: center;
+  }

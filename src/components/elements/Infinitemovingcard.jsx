@@ -2,7 +2,9 @@
 import React from "react";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 export default function InfiniteMovingCardsDemo() 
-{const testimonials = [
+{
+  
+  const testimonials = [
   {
     quote:
       "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
@@ -33,8 +35,10 @@ export default function InfiniteMovingCardsDemo()
     title: "Moby-Dick",
   },
 ];
+
+
   return (
-    <div className="h-[40rem] mt-[17rem] container mx-auto rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="h-[40rem] my-[17rem]  rounded-md flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <p className="text-center font-bold text-[40px] text-white mt-4">
         Testimoni Dari <span className="text-[#11e8a7]">Client</span> 
       </p>
@@ -44,7 +48,11 @@ export default function InfiniteMovingCardsDemo()
         direction="right"
         speed="slow"
       />
-     
+     <InfiniteMovingCards
+        items={testimonials}
+        direction="left"
+        speed="slow"
+      />
     
     </div>
   );
